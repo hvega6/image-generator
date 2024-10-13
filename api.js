@@ -52,3 +52,7 @@ export const uploadImage = async (file) => {
     console.error("Upload error:", error);
   }
 };
+
+fal.config({
+    proxyUrl: "/api/fal/proxy",
+  });
